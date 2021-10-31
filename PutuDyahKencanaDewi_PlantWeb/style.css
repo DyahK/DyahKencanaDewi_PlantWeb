@@ -1,0 +1,411 @@
+.navbar {
+  background-color: darkslategray;
+  overflow: hidden;
+}
+
+.navbar img{
+width: 100px;
+height:100px ;
+
+}
+
+.logo {
+padding-top: 10px;
+width: 20%;
+float: left;
+
+}
+
+.menu-container {
+with: 80%;
+}
+
+.section-content {
+  background-color: whitesmoke;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: darkslategray;
+}
+
+.content-header h2{ 
+  text-align: center;
+  font-size: 40px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color: darkslategray;
+}
+
+.link{
+text-align: center;
+}
+
+.link a{
+  text-decoration: none;
+  color: seagreen;
+}
+
+.image{
+  text-align: center;
+  background-color: whitesmoke;
+  margin-top: 50px;
+}
+
+.image img{
+  padding-top: 50px;
+  margin-bottom: 50px;
+}
+
+.banner{
+  text-align: center;
+  background-color: darkslategray;
+  margin-top: 30px;
+}
+
+.banner-content{
+font-size: 30px;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+padding-top: 25px;
+color: whitesmoke;
+}
+
+.banner-image img{
+  text-align: center; 
+}
+
+.banner-content span {
+margin-top: 50px;
+padding-top: 50px;
+font-size: 3rem;
+color: whitesmoke;
+}
+
+.banner-link a{
+text-decoration: none;
+color: whitesmoke;
+padding-bottom: 30px;
+font-size: 20px;
+}
+
+.banner-image{
+padding-top: 60px;
+padding-bottom: 50px;
+}
+
+.sidebar{
+text-align: center;
+margin-top: 30px;
+}
+
+.sidebar-content{
+font-size: 50px;
+color: darkslategray;
+}
+
+.sidebar h4{
+font-size: 20px;
+}
+
+.sidebar-image{
+height: 30%;
+border: 6px;
+outline: darkslategray;
+padding-top: 50px;
+}
+
+.sidebar-link a{
+text-decoration: none;
+color: darkslategray;
+}
+
+.column{
+float: left;
+width: 50%;
+}
+
+.column1-image{
+width: 20px;
+height: 20px;
+}
+
+.row::after{
+content: "";
+display: table;
+clear: both;
+}
+.footer {
+display: flex;
+justify-content: center;
+background-color: darkslategray;
+}
+
+.footer-menu {
+width: 40%;
+}
+
+.footer-container {
+display: flex;
+height: 110px;
+justify-content: space-between;
+max-width: 1440px;
+padding: 30px 0 15px;
+width: 80%;
+}
+
+.footer-social {
+width: 50%;
+}
+
+
+.footer-social ul {
+list-style-type: none;
+}
+
+.footer-social li  {
+float: left;
+padding:5px;
+}
+
+.footer-social li a {
+display: inline;
+}
+
+
+.footer-icon{
+justify-content: space-between;
+margin-top: 30px;
+}
+
+.footer-icon button{
+background-color: darkslategray;
+border: none;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;;
+}
+
+.footer-icon img{
+padding-right: 20px;
+}
+
+
+.footer-2 {
+width: 30%;
+text-align: right;
+flex-direction: column;
+align-items: flex-end;
+justify-content: center;
+color: white;
+}
+
+.footer-2 p{
+font-size: 20px;
+margin-top: 30px;
+}
+
+.footer-menu button{
+background-color: darkslategray;
+border: none;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;;
+}
+
+.footer-menu ul{
+list-style-type: none;
+margin-left: -10px;
+color: white;
+text-decoration-style: none;
+font-size: 17px;
+display: inline;
+text-indent: 1cm;
+margin-top: 30px;
+}
+
+.footer-menu a:link{
+text-decoration: none;
+color: white;
+}
+
+.footer-menu li a{
+float: left;
+color: white;
+display: inline;
+}
+
+.footer-2 .dyah {
+margin-top: -10px;
+font-size: 12px;
+}
+
+img{
+max-width: 100%;
+height: auto;
+}
+
+.article {
+background-color: var(--very-light-gray);
+display: flex;
+justify-content: center;
+margin-bottom: 300px;
+}
+
+.article-container {
+max-width: 1440px;
+width: 80%;
+}
+
+.article-heading {
+color: var(--dark-blue);
+font-size: 33px;
+font-weight: 500;
+margin-bottom: 40px;
+margin-top: 80px;
+}
+
+.article-list {
+display: flex;
+justify-content: space-between;
+margin-bottom: 100px;
+}
+
+.article-item{
+height: 420px;
+width: 35%;
+}
+
+.article-content{
+background-color: white;
+padding: 25px 20px;
+margin-bottom: 50px;
+}
+
+.article-img{
+border-radius: 10px;
+height: auto;
+width: 100%;
+}
+
+.article-title{
+color: var(--dark-blue);
+font-size: 20px;
+}
+
+.article-text{
+color: var(--gray-blue);
+font-size: 15px;
+}
+
+/* [ON BIG SCREEN] */
+/* (A) WRAPPER */
+#hamnav {
+width: 80%;
+}
+
+/* (B) HORIZONTAL MENU ITEMS */
+#hamitems { display: flex; }
+#hamitems a {
+flex-grow: 1;
+flex-basis: 0;
+padding: 50px 5px;
+color: white;
+text-decoration: none;
+text-align: center;
+}
+#hamitems a:hover { 
+  background-color: #81b65e;
+  color: whitesmoke;
+
+}
+
+/* (C) HIDE HAMBURGER */
+#hamnav label, #hamburger { display: none; }
+
+
+/* [ON SMALL SCREENS] */
+@media screen and (max-width: 768px){
+/* (A) BREAK INTO VERTICAL MENU */
+#hamitems a {
+  box-sizing: border-box;
+  display: block;
+  width: 23%;
+  border-top: 1px solid #333;
+margin: auto;
+
+
+}
+
+/* (B) SHOW HAMBURGER ICON */
+#hamnav label { 
+  display: inline-block; 
+  color: white;
+  background: #81b65e;
+  font-style: normal;
+  font-size: 1.2em;
+margin-top: 20px;
+  padding: 15px;
+float: right;
+}
+
+/* (C) TOGGLE SHOW/HIDE MENU */
+#hamitems { display: none; }
+#hamnav input:checked ~ #hamitems { display: block; }
+}
+
+.content{
+  text-align: center;
+  margin-top: 30px;
+}
+
+.content-article{
+  font-size: 40px;
+  color: darkslategray;
+}
+
+.content-article h4{
+  font-size: 20px;
+}
+
+.content-image{
+  height: 30%;
+  border: 6px;
+  outline: darkslategray;
+  padding-top: 50px;
+}
+
+.content-link a{
+  text-decoration: none;
+  color: darkslategray;
+  font-size: 20px;
+}
+
+.menu-container button{
+  background-color: darkslategray;
+  border: none;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.footer-menu button{
+  background-color: darkslategray;
+  border: none;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.footer-social button{
+  background-color: darkslategray;
+  border: none;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  justify-content: space-around;
+}
+
+.img-hover-zoom{
+  height: 300px;
+  overflow: hidden;
+  margin-top: 50px;
+  padding-top: 20px;
+  padding-bottom: 50px;
+  margin-bottom: 50px;
+}
+
+.img-hover-zoom img{
+  transition: transform .5s ease;
+}
+
+.img-hover-zoom:hover img{
+  transform: scale(1.5);
+}
